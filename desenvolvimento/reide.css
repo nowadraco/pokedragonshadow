@@ -1,0 +1,73 @@
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    height: 250px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    position: relative;
+  }
+  
+  .nomePokemon {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .shiny {
+    color: #FFD700;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .numeroDex {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .imgPokemon img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+  }
+  
+  .tipo1 {
+    background-color: #EE8130;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-top: 10px;
+  }
+  
+  .tipo2 {
+    background-color: #9DB7F5;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-top: 10px;
+  }
+  
+  .pcReide {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .pcReideBostet {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .pcReideBostet img {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+  }
+  
