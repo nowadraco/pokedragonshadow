@@ -1,0 +1,890 @@
+<style>
+    .content-table {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-family: lato;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .content-table thead tr {
+        background-color: #818181;
+        color:white;
+        text-align: left;
+        font-weight: 900;
+    }
+
+    .content-table th,
+    .content-table td {
+        padding: 10px;
+    }
+
+    .content-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+
+    strong{
+        font-weight: 900;
+        color: #2195e9;
+    }
+
+</style>
+<!--<div class="lwptoc lwptoc-autoWidth lwptoc-baseItems lwptoc-transparent lwptoc-notInherit" data-smooth-scroll="1" data-smooth-scroll-offset="24"><div class="lwptoc_i">    <div class="lwptoc_header">
+        <b class="lwptoc_title" style="font-weight:900;">Conteúdo</b>            </div>
+<div class="lwptoc_items lwptoc_items-visible">
+    <div class="lwptoc_itemWrap"><div class="lwptoc_item">    <a href="#Filtros_de_busca_por_nome">
+                <span class="lwptoc_item_label">Filtros de busca por nome</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Filtros_de_busca_por_numero_da_Pokedex">
+                <span class="lwptoc_item_label">Filtros de busca por número da Pokédex</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Filtros_de_busca_pelo_tipo_do_Pokemon">
+                <span class="lwptoc_item_label">Filtros de busca pelo tipo do Pokémon</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Filtros_de_busca_por_Pontos_de_Combate_PC">
+                <span class="lwptoc_item_label">Filtros de busca por Pontos de Combate (PC)</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Filtros_de_busca_por_Pontos_de_Saude_PS">
+                <span class="lwptoc_item_label">Filtros de busca por Pontos de Saúde (PS)</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Filtros_de_busca_por_caracteristicas">
+                <span class="lwptoc_item_label">Filtros de busca por características</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Filtros_de_busca_de_Pokemon_que_podem_evoluir">
+                <span class="lwptoc_item_label">Filtros de busca de Pokémon que podem evoluir</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Filtros_de_busca_por_Megaevolucoes">
+                <span class="lwptoc_item_label">Filtros de busca por Megaevoluções</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Filtros_de_busca_por_tipo_de_encontro">
+                <span class="lwptoc_item_label">Filtros de busca por tipo de encontro</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Filtros_de_busca_por_ano_e_idade">
+                <span class="lwptoc_item_label">Filtros de busca por ano e idade</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Filtros_de_busca_por_distancia">
+                <span class="lwptoc_item_label">Filtros de busca por distância</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Filtros_de_busca_por_Pokemon_Companheiro">
+                <span class="lwptoc_item_label">Filtros de busca por Pokémon Companheiro</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Filtros_de_busca_por_tags">
+                <span class="lwptoc_item_label">Filtros de busca por tags</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Filtros_de_busca_por_golpes">
+                <span class="lwptoc_item_label">Filtros de busca por golpes</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Filtros_de_busca_por_avaliacao">
+                <span class="lwptoc_item_label">Filtros de busca por avaliação</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Filtros_de_busca_por_IVs_nas_barras_de_atributos">
+                <span class="lwptoc_item_label">Filtros de busca por IVs nas barras de atributos</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Operadores_Logicos">
+                <span class="lwptoc_item_label">Operadores Lógicos</span>
+    </a>
+    </div><div class="lwptoc_item">    <a href="#Filtros_de_busca_de_amigos">
+                <span class="lwptoc_item_label">Filtros de busca de amigos</span>
+    </a>
+    </div></div></div>
+</div></div>-->
+
+<p>É importante observar que os filtros só funcionam se forem digitados exatamente como descritos, seguindo a ortografia e espaçamento corretos entre as palavras. Por exemplo, se você deseja procurar por Pokémon Lendários no seu inventário, é necessário escrever a palavra com acento e no singular, como "Lendário", se você Digitar "lendarios" não ativa o filtro.</p>
+
+<p>Em outra situação, caso você queira buscar por Pokémon que são exclusivos de ovos, é preciso digitar a expressão "apenasovos", sem espaços entre as palavras e no plural. Qualquer outra forma de escrita não irá exibir os resultados desejados.</p>
+
+
+<h2><span class="Filtros_de_busca_por_nome">Filtros de busca por nome</span></h2>
+
+<table class="content-table">
+    <thead>
+        <tr>
+            <th>Filtro</th>
+            <th>Exemplo</th>
+            <th>O que faz</th>
+         </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Espécie do Pokémon</td>
+            <td>Pikachu</td>
+            <td>Mostra apenas o Pokémon pesquisado.</td>
+        </tr>    
+
+        <tr>
+            <td>Apelido</td>
+            <td>rato</td>
+            <td>Mostra apenas os Pokémon que você renomeou para o nome pesquisado.</td>
+        </tr>
+
+        <tr>
+            <td>Linhagem evolutiva</td>
+            <td>+Pikachu</td>
+            <td>Adicione o símbolo de + na frente do Pokémon pesquisado para mostrar apenas a sua linha evolutiva, nesse exemplo, Pichu, Pikachu e Raichu</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2><span class="Filtros_de_busca_por_numero_da_Pokedex">filtro de pesquisa com base no número da Pokédex</span></h2>
+
+<table class="content-table">
+
+    <thead>
+        <tr>
+            <th>Filtro</th>
+            <th>Exemplo</th>
+            <th>O que faz</th>
+         </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Número exato</td>
+            <td>25</td>
+            <td>Mostra apenas Pokémon com número de Pokédex 025.</td>
+        </tr>    
+
+        <tr>
+            <td>Todos antes daquele número</td>
+            <td>-25</td>
+            <td>Mostra todos Pokémon com número de Pokédex 025 e menor.</td>
+        </tr>
+
+        <tr>
+            <td>Todos depois daquele número</td>
+            <td>25-</td>
+            <td>Mostra todos Pokémon com número de Pokédex 025 e maior.</td>
+        </tr>
+
+        <tr>
+            <td>Todos entre uma sequência de números</td>
+            <td>25-50</td>
+            <td>Mostra todos Pokémon com número de Pokédex entre 025 e 050.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2><span class="Filtros_de_busca_pelo_tipo_do_Pokemon">Filtros de busca pelo tipo do Pokémon</span></h2>
+
+<table class="content-table">
+
+    <thead>
+        <tr>
+            <th>Filtro</th>
+            <th>Exemplo</th>
+            <th>O que faz</th>
+         </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Tipo do Pokémon</td>
+            <td>Elétrico</td>
+            <td>Mostra todos Pokémon do tipo Elétrico em seu inventário.</td>
+        </tr>    
+    </tbody>
+</table>
+
+<h2><span class="Filtros_de_busca_por_Pontos_de_Combate_PC">Filtros de busca por Pontos de Combate (PC)</span></h2>
+
+<table class="content-table">
+
+    <thead>
+        <tr>
+            <th>Filtro</th>
+            <th>Exemplo</th>
+            <th>O que faz</th>
+         </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Por PC Exato</td>
+            <td>pc1500</td>
+            <td>Mostra todos Pokémon com PC 1500.</td>
+        </tr>    
+
+        <tr>
+            <td>Todos com o PC pesquisado e menor</td>
+            <td>pc-1500</td>
+            <td>Mostra todos Pokémon com PC 1500 e menor.</td>
+        </tr>
+
+        <tr>
+            <td>Todos com o PC pesquisado e maior</td>
+            <td>pc1500-</td>
+            <td>Mostra todos Pokémon com PC 1500 e maior.</td>
+        </tr>
+
+        <tr>
+            <td>Todos entre uma sequência de PC</td>
+            <td>pc1500-2499</td>
+            <td>Mostra todos Pokémon com PC entre 1500 e 2499.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2><span class="Filtros_de_busca_por_Pontos_de_Saude_PS">Filtros de busca por Pontos de Saúde (PS)</span></h2>
+
+<table class="content-table">
+
+    <thead>
+        <tr>
+            <th>Filtro</th>
+            <th>Exemplo</th>
+            <th>O que faz</th>
+         </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>PS exato</td>
+            <td>ps100</td>
+            <td>Mostra todos Pokémon com PS 100.</td>
+        </tr>    
+
+        <tr>
+            <td>Todos com o PS pesquisado e menor</td>
+            <td>ps-100</td>
+            <td>Mostra todos Pokémon com PS 100 e menor.</td>
+        </tr>
+
+        <tr>
+            <td>Todos com o PS pesquisado e maior</td>
+            <td>ps100-</td>
+            <td>Mostra todos Pokémon com PS 100 e maior.</td>
+        </tr>
+
+        <tr>
+            <td>Todos entre uma sequência de PS</td>
+            <td>ps100-120</td>
+            <td>Mostra todos Pokémon com PS entre 100 e 120.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2><span class="Filtros_de_busca_por_caracteristicas">Filtros de busca por características</span></h2>
+
+<table class="content-table">
+
+    <thead>
+        <tr>
+            <th>Filtro</th>
+            <th>Exemplo</th>
+            <th>O que faz</th>
+         </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Região</td>
+            <td>Kanto, Johto, Hoenn, Sinnoh, Unova, Kalos, Alola, Galar, Hisui</td>
+            <td>Mostra todos Pokémon da região pesquisada em seu inventário.</td>
+        </tr>    
+
+        <tr>
+            <td>Lendário</td>
+            <td>Lendário</td>
+            <td>Mostra todos Pokémon Lendários em seu inventário.</td>
+        </tr>
+
+        <tr>
+            <td>Mítico</td>
+            <td>Mítico</td>
+            <td>Mostra todos Pokémon Míticos em seu inventário.</td>
+        </tr>
+
+        <tr>
+            <td>Ultracriatura (Ultra Beast)</td>
+            <td>Ultracriatura</td>
+            <td>Mostra todas Ultracriaturas em seu inventário.</td>
+        </tr>
+
+        <tr>
+            <td>Brilhante (Shiny)</td>
+            <td>Brilhante</td>
+            <td>Mostra todos Pokémon Brilhantes em seu inventário.</td>
+        </tr>
+
+        <tr>
+            <td>Sombroso</td>
+            <td>Sombroso</td>
+            <td>Mostra todos Pokémon Sombrosos em seu inventário.</td>
+        </tr>
+
+        <tr>
+            <td>Purificado</td>
+            <td>Purificado</td>
+            <td>Mostra todos Pokémon Purificados em seu inventário.</td>
+        </tr>
+
+        <tr>
+            <td>Chocado</td>
+            <td>Chocado</td>
+            <td>Mostra todos seus Pokémon que foram chocados.</td>
+        </tr>
+
+        <tr>
+            <td>Pokémon Baby</td>
+            <td>Apenasovos</td>
+            <td>Mostra apenas Pokémon exclusivos de ovos, como Pichu, Happiny e Riolu, por exemplo.</td>
+        </tr>
+
+        <tr>
+            <td>Pokémon Sortudo</td>
+            <td>Sortudo</td>
+            <td>Mostra apenas Pokémon que viraram Sortudos no momento da troca.</td>
+        </tr>
+
+        <tr>
+            <td>Pokémon com fantasias</td>
+            <td>Traje</td>
+            <td>Mostra todos seus Pokémon com trajes de eventos especiais.</td>
+        </tr>
+
+        <tr>
+            <td>Por gênero</td>
+            <td>Macho, Fêmea ou Gênerodesconhecido</td>
+            <td>Mostra apenas Pokémon macho, fêmea ou sem gênero.</td>
+        </tr>
+
+        <tr>
+            <td>Por tamanho</td>
+            <td>xxs, xs, xl, xxl</td>
+            <td>Mostra apenas Pokémon com marcação de tamanho em sua altura.</td>
+        </tr>
+
+        <tr>
+            <td>Fortalecidos com Doces GG</td>
+            <td>Doce GG</td>
+            <td>Mostra todos Pokémon que foram fortalecidos acima do nível 40 com Doces GG.</td>
+        </tr>
+
+        <tr>
+            <td>Pokémon defendendo Ginásios</td>
+            <td>Defensor</td>
+            <td>Mostra todos seus Pokémon defendendo Ginásios no momento.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2><span class="Filtros_de_busca_de_Pokemon_que_podem_evoluir">Filtros de busca de Pokémon que podem evoluir</span></h2>
+
+<table class="content-table">
+
+    <thead>
+        <tr>
+            <th>Filtro</th>
+            <th>Exemplo</th>
+            <th>O que faz</th>
+         </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Pokémon que podem evoluir</td>
+            <td>evoluir</td>
+            <td>Mostra todos Pokémon que cumprem requisitos para poder evoluir.</td>
+        </tr>    
+
+        <tr>
+            <td>Pokémon que podem evoluir com itens</td>
+            <td>item</td>
+            <td>Mostra todos Pokémon aptos a evoluir com item especial.</td>
+        </tr>
+
+        <tr>
+            <td>Evoluir para um novo registro</td>
+            <td>evoluirnovo</td>
+            <td>Mostra todos Pokémon aptos a evoluir e que serão um novo registro na Pokédex.</td>
+        </tr>
+
+        <tr>
+            <td>Evoluções de troca</td>
+            <td>evoluirportroca</td>
+            <td>Mostra todos Pokémon elegíveis para evolução sem doces depois de serem trocados com outro Treinador.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2><span class="Filtros_de_busca_por_Megaevolucoes">Filtros de busca por Megaevoluções</span></h2>
+
+<table class="content-table">
+
+    <thead>
+        <tr>
+            <th>Filtro</th>
+            <th>Exemplo</th>
+            <th>O que faz</th>
+         </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Pokémon que podem megaevoluir</td>
+            <td>megaevolui</td>
+            <td>Mostra todos Pokémon que cumprem requisitos para megaevoluir no momento.</td>
+        </tr>
+
+        <tr>
+            <td>Meganível</td>
+            <td>mega1, mega2 ou mega3</td>
+            <td>Mostra todos Pokémon que já atingiram o meganível pesquisado. Você também pode usar o termo mega0 para mostrar todos Pokémon que podem nunca foram megaevoluídos.</td>
+        </tr>
+
+    </tbody>
+    
+</table>
+
+<h2><span class="Filtros_de_busca_por_tipo_de_encontro">Filtros de busca por tipo de encontro</span></h2>
+
+<p><strong>OBS:</strong> Pokémon capturados antes da data em que o filtro foi disponibilizado no jogo podem não aparecer nos resultados da pesquisa.</p>
+
+<table class="content-table">
+
+    <thead>
+        <tr>
+            <th>Filtro</th>
+            <th>Exemplo</th>
+            <th>O que faz</th>
+         </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Pokémon capturados em Reides</td>
+            <td>Reide</td>
+            <td>Mostra apenas Pokémon que foram capturados em Reides</td>
+        </tr>
+
+        <tr>
+            <td>Tipos de Reide</td>
+            <td>Reideadistância, megarreide, reideex</td>
+            <td>Mostra apenas Pokémon que foram capturados em Reides a distância, Megarreides ou Reides EX.</td>
+        </tr> 
+
+        <tr>
+            <td>Pokémon capturados em Pesquisas</td>
+            <td>Pesquisa</td>
+            <td>Mostra apenas Pokémon que foram capturados em Pesquisas.</td>
+        </tr>
+
+        <tr>
+            <td>Pokémon recebidos por troca</td>
+            <td>Trocado</td>
+            <td>Mostra apenas Pokémon que foram recebidos através de troca.</td>
+        </tr>
+
+        <tr>
+            <td>Pokémon capturados na Liga de Batalha GO</td>
+            <td>LBG</td>
+            <td>Mostra apenas Pokémon que foram capturados como recompensa da Liga de Batalha GO.</td>
+        </tr>
+
+        <tr>
+            <td>Pokémon capturados em batalhas contra a Equipe GO Rocket</td>
+            <td>Rocket</td>
+            <td>Mostra apenas Pokémon que foram capturados como recompensa de batalhas com a Equipe GO Rocket.</td>
+        </tr>
+
+        <tr>
+            <td>Pokémon capturados no Retrato GO</td>
+            <td>Retrato</td>
+            <td>Mostra apenas Pokémon que foram capturados após encontro no Retrato GO.</td>
+        </tr> 
+
+    </tbody>
+    
+</table>
+
+<h2><span class="Filtros_de_busca_por_ano_e_idade">Filtros de busca por ano e idade</span></h2>
+
+<table class="content-table">
+    <thead>
+        <tr>
+            <th>Filtro</th>
+            <th>Exemplo</th>
+            <th>O que faz</th>
+         </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Pelo ano que foi capturado</td>
+            <td>ano2016</td>
+            <td>Mostra todos Pokémon capturados no ano pesquisado.</td>
+        </tr>    
+
+        <tr>
+            <td>Pela idade (em dias)</td>
+            <td>idade0, idade1, idade2, etc</td>
+            <td>Mostra todos Pokémon capturados há uma certa quantidade de dias.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2><span class="Filtros_de_busca_por_distancia">Filtros de busca por distância</span></h2>
+
+<table class="content-table">
+    <thead>
+        <tr>
+            <th>Filtro</th>
+            <th>Exemplo</th>
+            <th>O que faz</th>
+         </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Pela distância que foram capturados (em km)</td>
+            <td>distância1000</td>
+            <td>Mostra todos Pokémon que foram capturados em um raio de 1000km da localização atual. Em caso de trocas, inclui a localização onde o Pokémon foi capturado originalmente.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2><span class="Filtros_de_busca_por_Pokemon_Companheiro">Filtros de busca por Pokémon Companheiro</span></h2>
+
+<table class="content-table">
+
+    <thead>
+        <tr>
+            <th>Filtro</th>
+            <th>Exemplo</th>
+            <th>O que faz</th>
+         </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Pokémon que nunca foram colocados como companheiro</td>
+            <td>companheiro0</td>
+            <td>Mostra todos Pokémon que nunca foram colocados como companheiro.</td>
+        </tr>
+
+        <tr>
+            <td>Pokémon que já foram colocados como companheiro</td>
+            <td>companheiro1-</td>
+            <td>Mostra todos Pokémon que foram colocados como companheiro, independente do nível de amizade.</td>
+        </tr>
+
+        <tr>
+            <td>Pokémon que já foram colocados como companheiro</td>
+            <td>companheiro1</td>
+            <td>Mostra apenas Pokémon que já foram colocados como companheiro, mas ainda não atingiram nenhum nível de amizade.</td>
+        </tr>
+
+        <tr>
+            <td>Bom Companheiro</td>
+            <td>companheiro2</td>
+            <td>Mostra apenas Pokémon que já atingiram o nível “Bom Companheiro” (1 coração de amizade).</td>
+        </tr>
+
+        <tr>
+            <td>Grande Companheiro</td>
+            <td>companheiro3</td>
+            <td>Mostra apenas Pokémon que já atingiram o nível “Grande Companheiro” (2 corações de amizade).</td>
+        </tr>
+
+        <tr>
+            <td>Ultra-Companheiro</td>
+            <td>companheiro4</td>
+            <td>Mostra apenas Pokémon que já atingiram o nível “Ultra-Companheiro” (3 corações de amizade).</td>
+        </tr>
+
+        <tr>
+            <td>Melhor Companheiro</td>
+            <td>companheiro5</td>
+            <td>Mostra apenas Pokémon que já atingiram o nível “Melhor Companheiro” (4 corações de amizade).</td>
+        </tr>
+
+    </tbody>
+</table>
+
+<h2><span class="Filtros_de_busca_por_tags">Filtros de busca por tags</span></h2>
+
+<table class="content-table">
+    <thead>
+        <tr>
+            <th>Filtro</th>
+            <th>Exemplo</th>
+            <th>O que faz</th>
+         </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Pokémon em uma tag específica</td>
+            <td>nome da tag</td>
+            <td>Basta pesquisar pelo nome exato da tag para mostrar todos Pokémon que estão marcados com ela.</td>
+        </tr>
+
+        <tr>
+            <td>Pokémon em uma tag específica</td>
+            <td>#nome da tag</td>
+            <td>Você também pode pesquisar uma tag específica colocando o símbolo # antes do nome. Isso pode ajudar caso o nome da tag também corresponda a um outro filtro já existente.</td>
+        </tr>
+
+        <tr>
+            <td>Todos Pokémon com tag</td>
+            <td>#</td>
+            <td>Digite o símbolo # para mostrar todos Pokémon marcados com alguma tag.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2><span class="Filtros_de_busca_por_golpes">Filtros de busca por golpes</span></h2>
+
+<table class="content-table">
+
+    <thead>
+        <tr>
+            <th>Filtro</th>
+            <th>Exemplo</th>
+            <th>O que faz</th>
+         </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Pelo nome do ataque</td>
+            <td>@Bola Sombria</td>
+            <td>Mostra apenas Pokémon que possuem o ataque pesquisado.</td>
+        </tr>
+
+        <tr>
+            <td>Pelo tipo do ataque</td>
+            <td>@fantasma</td>
+            <td>Mostra apenas Pokémon que possuem ataques do tipo pesquisado.</td>
+        </tr> 
+
+        <tr>
+            <td>Pokémon com golpes especiais (legacy)</td>
+            <td>@especial</td>
+            <td>Mostra apenas Pokémon que possuem ataques especiais que só podem ser aprendidos em eventos, como Dia comunitário por exemplo, ou com MT de Elite.</td>
+        </tr>
+
+        <tr>
+            <td>Pokémon com terceiro ataque liberado</td>
+            <td>!@move</td>
+            <td>Mostra apenas Pokémon que possuem o terceiro ataque liberado.</td>
+        </tr>
+
+        <tr>
+            <td>Pokémon com ataques fortalecidos pelo clima</td>
+            <td>@clima</td>
+            <td>Mostra apenas Pokémon que possuem ataques fortalecidos pelo clima atual.</td>
+        </tr>
+
+    </tbody>
+    
+</table>
+
+<p>Você pode usar os modificadores @1, @2 ou @3 para pesquisar Pokémon que possuam determinados ataques no primeiro, segundo ou terceiro ataque. Por exemplo, @1especial mostra apenas Pokémon que tenham um ataque especial (legacy) no primeiro ataque.
+</p>
+
+<h2><span class="Filtros_de_busca_por_avaliacao">Filtros de busca por avaliação</span></h2>
+
+<p><picture class='webp-picture'><source srcset='https://jogadaexcelente.com.br/wp-content/uploads/2022/07/Avaliacao-em-Estrelas-no-Pokemon-GO.png.webp' type='image/webp'><img   src='https://jogadaexcelente.com.br/wp-content/uploads/2022/07/Avaliacao-em-Estrelas-no-Pokemon-GO.png'  width='100'  alt='Avaliação do Pokémon'  class=' webp-content-processed'  loading='lazy'></picture></p>
+
+<p>Esse filtro se baseia na qualidade de avaliação de cada Pokémon. Quanto mais pontos de IVs, melhor será a avaliação e a quantidade de Estrelas que um Pokémon recebe. Na imagem acima, você pode ver um exemplo de um Pokémon que tem avaliação com três estrelas vermelhas. Isso significa que o Pokémon tem 15 pontos de IVs em todos seus atributos. O filtro para mostrar Pokémon com essa avaliação é 4*.</p>
+
+<table class="content-table">
+
+    <thead>
+        <tr>
+            <th>Filtro</th>
+            <th>Exemplo</th>
+            <th>O que faz</th>
+         </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Avaliação 0 Estrelas</td>
+            <td>0*</td>
+            <td>Mostra apenas Pokémon que têm entre 0 e 22 pontos de IVs (entre 0% e 48,9%).</td>
+        </tr>
+
+        <tr>
+            <td>Avaliação 1 Estrela</td>
+            <td>1*</td>
+            <td>Mostra apenas Pokémon que têm entre 23 e 29 pontos de IVs (entre 51.1% e 64.4%).</td>
+        </tr>
+
+        <tr>
+            <td>Avaliação 2 Estrelas</td>
+            <td>2*</td>
+            <td>Mostra apenas Pokémon que têm entre 30 e 36 pontos de IVs (entre 66.7% e 80%).</td>
+        </tr>
+
+        <tr>
+            <td>Avaliação 3 Estrelas amarelas</td>
+            <td>3*</td>
+            <td>Mostra apenas Pokémon que têm entre 37 e 44 pontos de IVs (entre 82.2% e 97.8%).</td>
+        </tr>
+
+        <tr>
+            <td>Avaliação 3 Estrelas vermelhas</td>
+            <td>4*</td>
+            <td>Mostra apenas Pokémon que têm 45 pontos de IVs (100%).</td>
+        </tr>
+
+    </tbody>
+    
+</table>
+
+<h2><span class="Filtros_de_busca_por_IVs_nas_barras_de_atributos">Filtros de busca por IVs nas barras de atributos</span></h2>
+
+<p>No Pokémon GO existem três atributos principais: ataque, defesa e PS. Cada um desses atributos é demonstrado em uma barra que pode variar entre 0 e 15 pontos. Esses pontos também são conhecidos como IVs. Ao avaliar um Pokémon, você pode visualizar que essas barras são divididas em três segmentos, portanto, cada segmento mostra 5 pontos de IVs.</p>
+
+<p>A partir da atualização 0.243, você pode usar novos filtros de pesquisa para mostrar apenas os Pokémon com pontos de IVs em segmentos específicos.</p>
+
+<p>O termo <strong>1ataque</strong> vai mostrar apenas Pokémon que tenham pontos no primeiro segmento da barra de ataque, ou seja, entre 1 e 5 pontos de IVs no ataque.
+    Já o termo <strong>3defesa</strong> por exemplo, vai mostrar apenas Pokémon que tenham algum ponto no terceiro segmento da barra de defesa, ou seja, entre 11 e 14 pontos de IVs na defesa.</p>
+
+<p>Você pode combinar termos para uma busca mais personalizada. Vamos supor que você queira ver todos seus Pokémon com IVs 0/15/15, basta pesquisar por <strong>0ataque &amp; 4defesa &amp; 4ps</strong></p> 
+
+<table class="content-table">
+
+    <thead>
+        <tr>
+            <th>Filtro</th>
+            <th>Exemplo</th>
+            <th>O que faz</th>
+         </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>0 pontos</td>
+            <td>0ataque, 0defesa ou 0ps</td>
+            <td>Mostra apenas Pokémon que têm 0 pontos de IVs no atributo pesquisado.</td>
+        </tr>
+
+        <tr>
+            <td>Entre 1 e 5 pontos</td>
+            <td>1ataque, 1defesa ou 1ps</td>
+            <td>Mostra apenas Pokémon que têm entre 1 e 5 pontos de IVs no atributo pesquisado (1 segmento na barra do atributo)</td>
+        </tr>
+
+        <tr>
+            <td>Entre 6 e 10 pontos</td>
+            <td>2ataque, 2defesa ou 2ps</td>
+            <td>Mostra apenas Pokémon que têm entre 6 e 10 pontos de IVs no atributo pesquisado (2 segmentos na barra do atributo)</td>
+        </tr>
+
+        <tr>
+            <td>Entre 11 e 14 pontos</td>
+            <td>3ataque, 3defesa ou 3ps</td>
+            <td>Mostra apenas Pokémon que têm entre 11 e 14 pontos de IVs no atributo pesquisado (3 segmentos na barra do atributo)</td>
+        </tr>
+
+        <tr>
+            <td>15 pontos</td>
+            <td>4ataque, 4defesa ou 4ps</td>
+            <td>Mostra apenas Pokémon que têm 15 pontos de IVs no atributo pesquisado (barra cheia)</td>
+        </tr>
+
+    </tbody>
+    
+</table>
+
+<h2><span class="Operadores_Logicos">Operadores Lógicos</span></h2>
+
+<p>Você pode utilizar alguns operadores para combinar filtros e personalizar ainda mais suas buscas.</p>
+
+<table class="content-table">
+
+    <thead>
+        <tr>
+            <th>Filtro</th>
+            <th>Exemplo</th>
+            <th>O que faz</th>
+         </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Combinar filtros</td>
+            <td>&amp; |</td>
+            <td>Utilize os símbolos &amp; ou | para combinar mais de um filtro. Exemplo: Lendário &amp; Brilhante (mostra apenas Pokémon Lendários que também sejam Brilhantes).</td>
+        </tr>
+
+        <tr>
+            <td>Mostrar mais de um filtro</td>
+            <td>, ; :</td>
+            <td>Utilize os símbolos , ou ; ou : para mostrar um filtro ou outro na mesma busca. Exemplo: Mítico; Sombroso (mostra todos Pokémon que sejam míticos ou sombrosos).</td>
+        </tr>
+
+        <tr>
+            <td>Excluir da busca</td>
+            <td>!</td>
+            <td>Exclui determinados Pokémon de sua busca. Exemplo: Trocado &amp; !Brilhante (mostra apenas Pokémon recebidos através de troca, exceto os que forem Brilhantes).</td>
+        </tr>
+
+    </tbody>
+    
+</table>
+
+<h2><span class="Filtros_de_busca_de_amigos">Filtros de busca de amigos</span></h2>
+
+<p>Os termos abaixo podem ser utilizados como filtros na lista de amigos.</p>
+
+<table class="content-table">
+
+    <thead>
+        <tr>
+            <th>Filtro</th>
+            <th>Exemplo</th>
+            <th>O que faz</th>
+         </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Pelo nome do amigo</td>
+            <td>Digite o nome exato do amigo</td>
+            <td>Mostra o amigo pesquisado. Detalhe: Se você quer procurar por um amigo chamado JogadaExcelente22, por exemplo, digitar apenas 22 não mostrará resultados.</td>
+        </tr>
+
+        <tr>
+            <td>Amigos que você pode interagir</td>
+            <td>Interagir</td>
+            <td>Mostra todos amigos que você ainda não interagiu no dia.</td>
+        </tr>
+
+        <tr>
+            <td>Amigos que você pode enviar presentes</td>
+            <td>Presenteável</td>
+            <td>Mostra todos amigos que você pode enviar presentes.</td>
+        </tr>
+
+        <tr>
+            <td>Amigos sortudos</td>
+            <td>Sortudo</td>
+            <td>Mostra todos amigos que você tem uma amizade sortuda no momento.</td>
+        </tr>
+
+        <tr>
+            <td>Por nível de amizade</td>
+            <td>niveldeamizade0<br>
+                niveldeamizade1<br>
+                niveldeamizade2<br>
+                niveldeamizade3<br>
+                niveldeamizade4<br>
+            </td>
+            <td>Filtra amigos por determinado nível de amizade.<br>utilizando o niveldeamizade seguido de um dos numeros (0,1,2,3,4) ele ira fazer um determinado filtro explicado a baixo:<br>
+                niveldeamizade0 = amigos que nunca interagiram.<br>
+                níveldeamizade1 = Bela amizade.<br>
+                níveldeamizade2 = Grande amizade.<br>
+                níveldeamizade3 = Ultra-amizade. <br>
+                níveldeamizade4 = Amizade sem igual.
+            </td>
+        </tr>
+
+        
+    </tbody>
+    
+</table>
