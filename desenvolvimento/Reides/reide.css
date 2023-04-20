@@ -10,13 +10,13 @@
 }
 
 ul {
-    display: block;
-    list-style-type: none;
-    margin-block-start:0px;
-    margin-block-end: 0px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0px;
+  display: block;
+  list-style-type: none;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
 }
 
 .header-tier-1,
@@ -91,67 +91,73 @@ ul {
 
 .metal {
   background-color: #9e9e9e;
-  }
-  
-  .fogo {
+}
+
+.fogo {
   background-color: #fd7d24;
-  }
-  
-  .grama {
+}
+
+.grama {
   background-color: #9bcc50;
-  }
-  
-  .eletrico {
+}
+
+.eletrico {
   background-color: #ffd600;
-  }
-  
-  .agua {
-    background-color: #00bfff;
-  }
-  
-  .gelo {
-    background-color: #baffff;
-  }
-  
-  .terra {
+}
+
+.agua {
+  background-color: #00bfff;
+}
+
+.gelo {
+  background-color: #baffff;
+}
+
+.terra {
   background-color: #c8873d;
-  }
-  
-  .pedra {
+}
+
+.pedra {
   background-color: #a38c21;
-  }
-  
-  .fada {
+}
+
+.fada {
   background-color: #e67ce6;
-  }
-  
-  .venenoso {
+}
+
+.venenoso {
   background-color: #8f5aff;
-  }
-  
-  .inseto {
+}
+
+.inseto {
   background-color: #f9ae18;
-  }
-  
-  .dragao {
+}
+
+.dragao {
   background-color: #7d3cff;
-  }
-  
-  .pisiquico {
+}
+
+.pisiquico {
   background-color: #ffb7b7;
-  }
-  
-  .voador {
+}
+
+.voador {
   background-color: #b5d7e5;
-  }
-  
-  .lutador {
+}
+
+.lutador {
   background-color: #ff9f43;
-  }
-  
-  .normal {
+}
+
+.normal {
   background-color: #dfe6e9;
-  }
+}
+
+.tipos {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .tipo1 {
   color: #000;
@@ -161,12 +167,20 @@ ul {
   margin-top: 5px;
 }
 
+.iconeT1 {
+  width: 25px;
+}
+
 .tipo2 {
   color: #000;
   font-size: 14px;
   border-radius: 20px;
   padding: 3px 5px;
   margin-top: 5px;
+}
+
+.iconeT2 {
+  width: 25px;
 }
 
 .pcReide {
