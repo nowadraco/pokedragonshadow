@@ -1,0 +1,12 @@
+[
+  {
+    "titulo": "Batalhas Dinamax",
+    "desc": "Prepare seus Pokémon para o fenômeno Dinamax nos Pontos de Energia.",
+    "inicio": "",
+    "fim": "",
+    "tipo": "max",
+    "tiers": {
+      "dmax": ["Bulbasaur Dinamax", "Charmander Dinamax", "Squirtle Dinamax"]
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "titulo": "Rotação Sombrosa Atual",
+    "desc": "Enfrente os Recrutas e Resgate Pokémon Sombrosos nos Ginásios Dominados pela Rocket!",
+    "inicio": "",
+    "fim": "",
+    "tipo": "shadow",
+    "tiers": {
+      "s1": ["Dratini (shadow)*", "Gligar (shadow)*", "Cacnea (shadow)*", "Joltik (shadow)"],
+      "s3": ["Marowak (Alolan) (shadow)", "Lapras (shadow)*", "Stantler (shadow)*"],
+      "s5": ["Latios (shadow)*"]
+    }
+  }
+]

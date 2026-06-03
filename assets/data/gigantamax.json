@@ -1,0 +1,12 @@
+[
+  {
+    "titulo": "Invasão Gigantamax",
+    "desc": "O poder máximo despertou! Enfrente as poderosas formas Gigantamax com seus aliados.",
+    "inicio": "",
+    "fim": "",
+    "tipo": "max",
+    "tiers": {
+      "gmax": ["Charizard Gigantamax"]
+    }
+  }
+]
