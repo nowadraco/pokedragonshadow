@@ -1,0 +1,13 @@
+{
+    "titulo": "Festival da Água 2026",
+    "desc": "A volta do Kyogre Primitivo! Pegue seu guarda-chuva.",
+    "inicio": "2026-07-15T10:00:00",
+    "fim": "2026-07-20T20:00:00",
+    "tipo": "normal",
+    "tiers": {
+      "1": ["Shellder*", "Ducklett*"],
+      "3": ["Kingler", "Gyarados"],
+      "5": ["Terrakion"],
+      "primal": ["Kyogre Primitivo*"]
+    }
+  }
