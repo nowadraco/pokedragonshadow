@@ -2,8 +2,8 @@
     {
     "titulo": "Rotação Atual de Reides",
     "desc": "Emolga, Dedenne e Yamper assumem as reides Tier 1; Regidrago comanda as batalhas Lendárias!",
-    "inicio": "",
-    "fim": "",
+   "inicio": "2026-07-03T10:00:00",
+    "fim": "2026-07-20T20:00:00",
     "tipo": "normal",
     "tiers": {
       "1": ["Pikachu*", "Raichu*", "Yamper", "Pawmi*"],
@@ -15,8 +15,8 @@
   {
     "titulo": "Rotação Sombrosa Atual",
     "desc": "Enfrente os Recrutas e Resgate Pokémon Sombrosos nos Ginásios Dominados pela Rocket!",
-    "inicio": "",
-    "fim": "",
+    "inicio": "2026-07-03T10:00:00",
+    "fim": "2026-07-20T20:00:00",
     "tipo": "shadow",
     "tiers": {
       "s1": ["Dratini (shadow)*", "Gligar (shadow)*", "Cacnea (shadow)*", "Joltik (shadow)"],
@@ -27,8 +27,8 @@
   {
     "titulo": "Batalhas Dinamax Atual",
     "desc": "Prepare seus Pokémon para o fenômeno Dinamax nos Pontos de Energia.",
-    "inicio": "",
-    "fim": "",
+    "inicio": "2026-07-03T10:00:00",
+    "fim": "2026-07-20T20:00:00",
     "tipo": "max",
     "tiers": {
       "dmax": ["Bulbasaur Dinamax", "Charmander Dinamax", "Squirtle Dinamax"]
