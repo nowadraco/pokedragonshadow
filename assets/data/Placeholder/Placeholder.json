@@ -1,0 +1,15 @@
+[
+  {
+    "titulo": "NOME DO EVENTO AQUI",
+    "desc": "Breve descrição do evento. (Opcional, pode deixar em branco)",
+    "inicio": "2026-06-01T10:00:00",
+    "fim": "2026-06-15T20:00:00",
+    "tipo": "normal",
+    "tiers": {
+      "1": ["Pokemon 1*", "Pokemon 2"],
+      "3": ["Pokemon 3", "Pokemon 4*"],
+      "5": ["Lendário 1*"],
+      "mega": ["Mega Pokemon*"]
+    }
+  }
+]
