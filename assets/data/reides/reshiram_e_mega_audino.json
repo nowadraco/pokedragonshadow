@@ -1,0 +1,25 @@
+{
+    "titulo": "Reshiram e Mega Audino",
+    "desc": "Reshiram em raides de 5 estrelas; Mega Audino em mega raides.",
+    "inicio": "2026-06-03T06:00:00",
+    "fim": "2026-06-10T06:00:00",
+    "tipo": "normal",
+    "tiers": {
+      "1": [
+        "Galarian Meowth*",
+        "Chimecho*",
+        "Galarian Stunfisk*",
+        "Hatenna"
+      ],
+      "3": [
+        "Galarian Weezing*",
+        "Togetic*"
+      ],
+      "5": [
+        "Reshiram*"
+      ],
+      "mega": [
+        "Mega Audino*"
+      ]
+    }
+  }

@@ -3,8 +3,8 @@
   {
     "titulo": "Rotação Sombrosa Atual",
     "desc": "Enfrente os Recrutas e Resgate Pokémon Sombrosos nos Ginásios Dominados pela Rocket!",
-    "inicio": "",
-    "fim": "",
+    "inicio": "2026-06-03T06:00:00",
+    "fim": "2026-06-10T06:00:00",
     "tipo": "shadow",
     "tiers": {
       "s1": ["Dratini (shadow)*", "Gligar (shadow)*", "Cacnea (shadow)*", "Joltik (shadow)"],
