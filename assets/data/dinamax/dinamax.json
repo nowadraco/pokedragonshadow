@@ -6,7 +6,25 @@
     "fim": "",
     "tipo": "max",
     "tiers": {
-      "dmax": ["Bulbasaur Dinamax", "Charmander Dinamax", "Squirtle Dinamax"]
+      "dmax1": [
+        "Eevee Dinamax", "Combee Dinamax", "Pikachu Dinamax", 
+        "Growlithe Dinamax", "Ralts Dinamax", "Inkay Dinamax", "Gastly Dinamax", 
+        "Roggenrola Dinamax", "Drilbur Dinamax", "Rookidee Dinamax", "Charmander Dinamax",  
+        "Kabuto Dinamax", "Abra Dinamax", "Squirtle Dinamax", "Omanyte Dinamax",  
+        "Bulbasaur Dinamax", "Bounsweet Dinamax", "Spheal Dinamax", "Woobat Dinamax",  
+        "Hatenna Dinamax", "Trubbish Dinamax", "Trapinch Dinamax", "Krabby Dinamax",  
+        "Pidove Dinamax", "Scorbunny Dinamax", "Sobble Dinamax", "Caterpie Dinamax",  
+        "Grookey Dinamax", "Wooloo Dinamax", "Skwovet Dinamax", "Cottonee Dinamax"
+      ],
+      "dmax2": [
+        "Wailmer Dinamax", "Shuckle Dinamax", 
+        "Machop Dinamax", "Darumaka Dinamax"
+      ],
+      "dmax3": [
+        "Drampa Dinamax", "Beldum Dinamax", "Chansey Dinamax", 
+        "Sableye Dinamax", "Cryogonal Dinamax", "Falinks Dinamax", 
+        "Passimian Dinamax", "Hitmonlee Dinamax", "Hitmonchan Dinamax"
+      ]
     }
   }
 ]
