@@ -1,14 +1,23 @@
-[
-  {
-    "titulo": "Rotação Sombrosa Atual",
-    "desc": "Enfrente os Recrutas e Resgate Pokémon Sombrosos nos Ginásios Dominados pela Rocket!",
-    "inicio": "",
-    "fim": "",
+{
+    "titulo": "Reides Sombrosas",
+    "desc": "Estreia do Dialga Brilhante (Shiny) nas reides de 5 estrelas.",
+    "inicio": "2026-06-02T06:00:00",
+    "fim": "2026-06-30T10:00:00",
     "tipo": "shadow",
     "tiers": {
-      "s1": ["Dratini (shadow)*", "Gligar (shadow)*", "Cacnea (shadow)*", "Joltik (shadow)"],
-      "s3": ["Marowak (Alolan) (shadow)", "Lapras (shadow)*", "Stantler (shadow)*"],
-      "s5": ["Latios (shadow)*"]
+      "s1": [
+        "Horsea",
+        "Porygon",
+        "Beldum*",
+        "Golett"
+      ],
+      "s3": [
+        "Marowak (Alolan)*",
+        "Hitmonlee",
+        "Gligar*"
+      ],
+      "s5": [
+        "Dialga*"
+      ]
     }
   }
-]
