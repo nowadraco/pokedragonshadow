@@ -6,18 +6,18 @@
     "tipo": "shadow",
     "tiers": {
       "s1": [
-        "Horsea",
-        "Porygon",
-        "Beldum*",
-        "Golett"
+        "Horsea (shadow)",
+        "Porygon (shadow)",
+        "Beldum (shadow)*",
+        "Golett (shadow)"
       ],
       "s3": [
-        "Marowak (Alolan)*",
-        "Hitmonlee",
-        "Gligar*"
+        "Marowak (Alolan) (shadow)*",
+        "Hitmonlee (shadow)",
+        "Gligar (shadow)*"
       ],
       "s5": [
-        "Dialga*"
+        "Dialga (shadow)*"
       ]
     }
   }
