@@ -1,0 +1,13 @@
+[
+  {
+    "titulo": "Segundas max",
+    "desc": "Prepare seus Pokémon para o fenômeno da Segunda Dinamax nos Pontos de Energia com Electabuzz.",
+    "inicio": "2026-06-08T06:00:00",
+"fim": "2026-06-08T21:00:00",
+    "tipo": "max",
+    "tiers": {
+      "dmax3": ["Electabuzz Dinamax"
+      ]
+    }
+  }
+]
