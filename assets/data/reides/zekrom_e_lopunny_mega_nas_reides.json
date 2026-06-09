@@ -6,6 +6,17 @@
     "fim": "2026-06-17T06:00:00",
     "tipo": "normal",
     "tiers": {
+      "1": [
+        "Rockruff*",
+        "Scraggy*",
+        "Honedge*",
+        "Growlithe (Hisuian)*"
+      ],
+      "3": [
+        "Machamp*",
+        "Scizor*",
+        "Magcargo*"
+      ],
       "5": [
         "Zekrom*"
       ],
