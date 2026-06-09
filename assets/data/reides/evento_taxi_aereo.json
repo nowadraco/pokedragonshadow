@@ -1,0 +1,21 @@
+[
+  {
+    "titulo": "Evento Táxi Aéreo",
+    "desc": "Reides focadas em Pokémon do tipo Voador e na estreia de Squawkabilly.",
+    "inicio": "2026-06-23T10:00:00",
+    "fim": "2026-06-29T20:00:00",
+    "tipo": "normal",
+    "tiers": {
+      "1": [
+        "Swablu*",
+        "Starly*",
+        "Vullaby*"
+      ],
+      "3": [
+        "Braviary (Hisuian)*",
+        "Corvisquire",
+        "Bombirdier*"
+      ]
+    }
+  }
+]
