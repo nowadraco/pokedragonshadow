@@ -1,0 +1,16 @@
+{
+    "titulo": "celesteela, Kartanae Mega Pidgeot",
+    "desc": "Celesteela em raides de 5 estrelas; Mega Pidgeot em mega raides.",
+    "inicio": "2026-06-24T06:00:00",
+    "fim": "2026-07-01T06:00:00",
+    "tipo": "normal",
+    "tiers": {
+      "5": [
+        "Celesteela*",
+        "Kartana*"
+      ],
+      "mega": [
+        "Mega Pidgeot*"
+      ]
+    }
+  }
