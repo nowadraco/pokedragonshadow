@@ -1,0 +1,13 @@
+{
+    "titulo": "Necrozma e Mega Scizor",
+    "desc": "Necrozma em raides de 5 estrelas; Mega Scizor em mega raides.",
+    "inicio": "2026-07-18T14:00:00",
+    "fim": "2026-07-18T17:00:00",
+    "tipo": "Super mega",
+    "tiers": {
+      "smega": [
+        "Mega Raichu x*",
+        "Mega Raichu y*"
+      ]
+    }
+  }
