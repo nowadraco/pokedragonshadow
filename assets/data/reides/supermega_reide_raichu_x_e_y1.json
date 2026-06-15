@@ -1,0 +1,13 @@
+{
+    "titulo": "Mega Raichu X e Mega Raichu Y",
+    "desc": "Mega Raichu X e Mega Raichu Y  em SuperMega Raides",
+    "inicio": "2026-07-18T14:00:00",
+    "fim": "2026-07-18T17:00:00",
+    "tipo": "Super mega",
+    "tiers": {
+      "smega": [
+        "Mega Raichu X*",
+        "Mega Raichu Y*"
+      ]
+    }
+  }
