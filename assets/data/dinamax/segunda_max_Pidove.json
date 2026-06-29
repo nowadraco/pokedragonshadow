@@ -2,8 +2,8 @@
   {
     "titulo": "Segundas max Pidove",
     "desc": "Prepare seus Pokémon para o fenômeno da Segunda Dinamax nos Pontos de Energia com Pidove.",
-    "inicio": "2026-06-15T06:00:00",
-"fim": "2026-06-15T21:00:00",
+    "inicio": "2026-06-29T06:00:00",
+"fim": "2026-06-29T21:00:00",
     "tipo": "max",
     "tiers": {
       "dmax1": ["Pidove Dinamax*"
