@@ -1,0 +1,17 @@
+{
+    "titulo": "Segundo Dia da semana Caminho das Lendas",
+    "desc": "No Segundo dia da semana caminho das Lendas temos Kyurem (White)*, Zekrom* e Necrozma (Dawn Wings)* em reides de 5 estrelas e Mega Tyranitar* em Mega Raides.",
+    "inicio": "2026-07-07T00:00:00",
+    "fim": "2026-07-07T23:59:59",
+    "tipo": "normal",
+    "tiers": {
+      "5": [
+        "Kyurem (White)*",
+        "Zekrom*",
+        "Necrozma (Dawn Wings)*"
+      ],
+      "mega": [
+        "Mega Tyranitar*"
+      ]
+    }
+  }

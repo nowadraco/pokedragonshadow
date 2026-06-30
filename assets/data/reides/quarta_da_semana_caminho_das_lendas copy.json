@@ -1,0 +1,17 @@
+{
+    "titulo": "Terceiro Dia da semana Caminho das Lendas",
+    "desc": "No Terceiro dia da semana caminho das Lendas temos Kyurem (Black)*, Reshiram* e Necrozma (Dusk Mane)* em reides de 5 estrelas e Mega Gardevoir* em Mega Raides.",
+    "inicio": "2026-07-08T00:00:00",
+    "fim": "2026-07-08T23:59:59",
+    "tipo": "normal",
+    "tiers": {
+      "5": [
+        "Kyurem (Black)*",
+        "Reshiram*",
+        "Necrozma (Dusk Mane)*"
+      ],
+      "mega": [
+        "Mega Gardevoir*"
+      ]
+    }
+  }
