@@ -1,0 +1,16 @@
+{
+    "titulo": "Quarto Dia da semana Caminho das Lendas",
+    "desc": "No Quarto dia da semana caminho das Lendas temos Zacian Espada Coroada* e Zamazenta Escudo Coroado* em reides de 5 estrelas e Mega Gengar* em Mega Raides.",
+    "inicio": "2026-07-09T00:00:00",
+    "fim": "2026-07-09T23:59:59",
+    "tipo": "normal",
+    "tiers": {
+      "5": [
+        "Zacian Espada Coroada*",
+        "Zamazenta Escudo Coroado*"
+      ],
+      "mega": [
+        "Mega Gengar*"
+      ]
+    }
+  }

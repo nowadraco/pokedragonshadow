@@ -1,0 +1,17 @@
+{
+    "titulo": " Quinto Dia da semana Caminho das Lendas",
+    "desc": "No Quinto dia da semana caminho das Lendas temos Dialga (Origin)* e Palkia (Origin)* em reides de 5 estrelas e Primal Kyogre* e Primal Groudon* em Primal Raides.",
+    "inicio": "2026-07-10T00:00:00",
+    "fim": "2026-07-10T23:59:59",
+    "tipo": "normal",
+    "tiers": {
+      "5": [
+        "Dialga (Origin)*",
+        "Palkia (Origin)*"
+      ],
+      "primal": [
+        "Kyogre (Primal)*",
+        "Groudon (Primal)*"
+      ]
+    }
+  }
