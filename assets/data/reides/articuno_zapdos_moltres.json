@@ -1,0 +1,28 @@
+{
+    "titulo": "Articuno, Zapdos, Moltres e Mega Lucario",
+    "desc": "Articuno, Zapdos, Moltres em raides de 5 estrelas; Mega Lucario em mega raides.",
+    "inicio": "2026-07-01T06:00:00",
+    "fim": "2026-07-05T10:00:00",
+    "tipo": "normal",
+    "tiers": {
+      "1": [
+        "Rufflet*",
+        "Gastly*",
+        "Vulpix*",
+        "Vulpix (Alolan)"
+      ],
+      "3": [
+        "Snorlax*",
+        "Scyther*",
+        "Gyarados*"
+      ],
+      "5": [
+        "Articuno*",
+        "Zapdos*",
+        "Moltres*"
+      ],
+      "mega": [
+        "Mega Lucario*"
+      ]
+    }
+  }
