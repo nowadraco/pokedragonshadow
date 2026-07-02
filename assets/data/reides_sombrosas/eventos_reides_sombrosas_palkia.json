@@ -1,0 +1,23 @@
+{
+    "titulo": "Reides Sombrosas",
+    "desc": "Estreia do Palkia Brilhante (Shiny) nas reides de 5 estrelas.",
+    "inicio": "2026-07-01T06:00:00",
+    "fim": "2026-08-04T10:00:00",
+    "tipo": "shadow",
+    "tiers": {
+      "s1": [
+        "Phanpy (shadow)*",
+        "Ralts (shadow)*",
+        "Darumaka (shadow)*",
+        "Mankey (shadow)*"
+      ],
+      "s3": [
+        "Scyther (shadow)*",
+        "Hitmonchan (shadow)*",
+        "Graveler (shadow)*"
+      ],
+      "s5": [
+        "Palkia (shadow)*"
+      ]
+    }
+  }
